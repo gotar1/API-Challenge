@@ -46,17 +46,17 @@ Next we run linear regression on each relationship, only this time separating th
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-#### Northern Hemisphere - Temperature vs. Latitude
+#### <a id="northern-hemisphere-temperature-vs-latitude"></a>Northern Hemisphere - Temperature vs. Latitude
 R squared is: 0.7320859262740624 y = -1.37x + 90.06
 
-![temperature vs latitude](WeatherPy/output_data/fig5.png)
+![northern hemisphere temperature vs latitude](WeatherPy/output_data/fig5.png)
 
-#### <a id="temperature-vs-latitude"></a>Southern Hemisphere - Temperature vs. Latitude
+#### <a id="southern-hemisphere-temperature-vs-latitude"></a>Southern Hemisphere - Temperature vs. Latitude
 R squared is: 0.35329752049275204 y = 0.4x + 82.61
 
-![temperature vs latitude](WeatherPy/output_data/fig6.png)
+![southern hemisphere temperature vs latitude](WeatherPy/output_data/fig6.png)
 
-### Part II - VacationPy
+## Part II - VacationPy
 
 Working with weather data to plan future vacations. We used jupyter-gmaps and the Google Places API for this part.
 
@@ -73,7 +73,7 @@ Working with weather data to plan future vacations. We used jupyter-gmaps and th
 
   * Zero cloudiness.
 
-  * Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
+  * Drop any rows that don't contain all three conditions. We want to be sure the weather is ideal.
 
 * Using Google Places API to find the first hotel for each city located within 5000 meters of our coordinates.
 
