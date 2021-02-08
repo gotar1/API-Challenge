@@ -49,7 +49,7 @@ Next we run linear regression on each relationship, only this time separating th
 #### <a id="northern-hemisphere-temperature-vs-latitude"></a>Northern Hemisphere - Temperature vs. Latitude
 R squared is: 0.7320859262740624 y = -1.37x + 90.06
 
-![northern hemisphere temperature vs latitude](WeatherPy/output_data/fig5.png)
+![temperature vs latitude](WeatherPy/output_data/fig5.png)
 
 #### <a id="southern-hemisphere-temperature-vs-latitude"></a>Southern Hemisphere - Temperature vs. Latitude
 R squared is: 0.35329752049275204 y = 0.4x + 82.61
