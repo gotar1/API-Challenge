@@ -46,7 +46,7 @@ Next we run linear regression on each relationship, only this time separating th
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-#### <a id="temperature-vs-latitude"></a>Northern Hemisphere - Temperature vs. Latitude
+#### Northern Hemisphere - Temperature vs. Latitude
 R squared is: 0.7320859262740624 y = -1.37x + 90.06
 
 ![temperature vs latitude](WeatherPy/output_data/fig5.png)
